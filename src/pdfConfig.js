@@ -3,7 +3,7 @@ const pdfCategories = {
       { name: "Front Cover 1", path: "pdfs/front_covers/Front_Cover_1.pdf" },
       { name: "Front Cover 2", path: "pdfs/front_covers/Front_Cover_2.pdf" },      
     ],
-    "Introduction": [
+    "Executive summary": [
         { name: "Enterprise", path: "pdfs/introductions/Enterprise.pdf" },
         { name: "SMEs", path: "pdfs/introductions/SMEs.pdf" },      
         { name: "Charities", path: "pdfs/introductions/Charities.pdf" },      

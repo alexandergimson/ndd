@@ -5,7 +5,8 @@
   justify-content: space-between;
   padding: 0 20px;
   background-color: #fff; /* Example background color */
-  color: #fff; /* Example text color */
+  color: black; /* Example text color */
+  font-family: Neuehaasdisplay, sans-serif;
 }
 
 .logo img {
