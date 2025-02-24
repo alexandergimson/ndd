@@ -1,0 +1,20 @@
+/* NavBar.css */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #333; /* Example background color */
+  color: #fff; /* Example text color */
+}
+
+.logo img {
+  height: 50px; /* Adjust based on your logo's size */
+  padding: 10px;
+}
+
+.nav-info {
+  /* Styling for the information text */
+  font-size: 20px;
+  padding: 10px;
+}

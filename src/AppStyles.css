@@ -1,0 +1,277 @@
+/* AppStyles.css */
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  align-items: flex-start;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.pdf-selector-container {
+  flex: 70%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.pdfs-selected-container {
+  display: flex;
+  flex: 30%;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.react-pdf__Page__textContent,
+.react-pdf__Page__annotations,
+.markedContent,
+.pdf-viewer-text {
+  display: none;
+}
+
+div#container {
+  display: table;
+  width: 300px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+input[type=text],
+div.button {
+  width: 175px;
+  height: 40px;
+  padding-left: 10px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  background-color: #e1e1e1;
+  border: 0;
+}
+
+#downloadbutton {
+  line-height: 40px;
+  margin: 0;
+  padding: 0 20px;
+  color: #fff;
+  background-color: #4679BD;
+  font-weight: bold;
+  border: 0px;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+}
+
+#previewbutton {
+  line-height: 35px;
+  width: 100%;
+  margin-left: 0;
+  color: #fff;
+  background-color: #4679BD;
+  font-weight: bold;
+  border: 0px;
+  white-space: nowrap;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+button {
+  all: unset;
+}
+
+
+
+.flex-item {
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.up-arrow,
+.down-arrow,
+.remove-button {
+  background: #4679BD;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  /* Adjust the size as needed */
+  width: 1.6rem;
+  height: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.down-arrow::after {
+  content: "\25bc";
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 0.2rem;
+}
+
+.up-arrow::after {
+  content: "\25b2";
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 0.1rem;
+
+}
+
+.remove-button::after {
+  content: "\2718";
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 0.2rem;
+
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category h2 {
+  cursor: pointer;
+  user-select: none;
+  /* Prevent text selection */
+}
+
+
+h3,
+button {
+  cursor: pointer;
+}
+
+.pdf-name {
+  font-size: 14px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #333;
+  /* Adjust color as needed */
+}
+
+.pdf-viewer-container {
+  width: 100%;
+  /* Ensure this container allows its children to expand to full width */
+  overflow: hidden;
+  /* Hide overflow */
+}
+
+
+.pdf-name,
+.pdf-image,
+#previewbutton {
+  width: 100%;
+}
+
+.pdf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(237px, 1fr));
+  gap: 10px;
+  overflow: hidden;
+  /* Add this to ensure content doesn't overflow */
+}
+
+.pdf-item {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #e7e7e7;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  overflow: hidden;
+}
+
+
+.pdf-item {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.pdf-name {
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.pdf-image {
+  overflow: hidden;
+}
+
+
+
+.download-controls {
+  padding: 10px;
+  /* Adjust as needed */
+  display: flex;
+}
+
+/* Media query for screens narrower than 768px, for example */
+@media (max-width: 768px) {
+  .download-controls {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: stretch; /* Stretch items to fill the container width */
+  }
+
+  input[type="text"], #downloadbutton {
+    width: 100%; /* Full width for smaller screens */
+  }
+}
+
+
+.selected-pdf-item {
+  display: flex;
+  margin-bottom: 20px;
+  width: 75%;
+  position: relative;
+}
+
+.pdf-viewer-container, .pdf-viewer {
+  width: 200px;
+  /* Sets the width of the PDF viewer */
+  height: auto;
+  /* Adjust the height automatically */
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 10px;
+  top: 10px;
+  padding-right: 15%;
+}
