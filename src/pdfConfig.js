@@ -11,6 +11,14 @@ const pdfCategories = {
     "Timelines": [
         { name: "Integration timeilne", path: "pdfs/timelines/timeline.pdf" },        
     ],         
+    "Case Studies": [
+      { name: "Spanish 1 million", path: "pdfs/case_studies/Spanish_1M.pdf" },
+      { name: "Spanish 95%", path: "pdfs/case_studies/Spanish_95.pdf" },
+      { name: "UK 4%", path: "pdfs/case_studies/UK_4.pdf" },
+      { name: "US 93%", path: "pdfs/case_studies/US_93.pdf" },
+      { name: "US 98%", path: "pdfs/case_studies/US_98.pdf" },
+
+    ],
     "Efficiency Gains": [
         { name: "ChatGPT Study", path: "pdfs/efficiency_gains/ChatGPT_Study.pdf" },         
     ],            
@@ -51,14 +59,6 @@ const pdfCategories = {
     "Investors": [
         { name: "Investors", path: "pdfs/investors/Investors.pdf" },       
     ],                                            
-    "Case Studies": [
-      { name: "Spanish 1 million", path: "pdfs/case_studies/Spanish_1M.pdf" },
-      { name: "Spanish 95%", path: "pdfs/case_studies/Spanish_95%.pdf" },
-      { name: "UK 4%", path: "pdfs/case_studies/UK_4%.pdf" },
-      { name: "US 93%", path: "pdfs/case_studies/US_93%.pdf" },
-      { name: "US 98%", path: "pdfs/case_studies/US_98%.pdf" },
-
-    ],
     "Back Cover": [
       { name: "Back Cover", path: "pdfs/back_page/Back_Page.pdf" },
     ],
