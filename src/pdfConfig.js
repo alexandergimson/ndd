@@ -52,7 +52,12 @@ const pdfCategories = {
         { name: "Investors", path: "pdfs/investors/Investors.pdf" },       
     ],                                            
     "Case Studies": [
-      { name: "Serco", path: "pdfs/case_studies/Serco.pdf" },
+      { name: "Spanish 1 million", path: "pdfs/case_studies/Spanish_1M.pdf" },
+      { name: "Spanish 95%", path: "pdfs/case_studies/Spanish_95%.pdf" },
+      { name: "UK 4%", path: "pdfs/case_studies/UK_4%.pdf" },
+      { name: "US 93%", path: "pdfs/case_studies/US_93%.pdf" },
+      { name: "US 98%", path: "pdfs/case_studies/US_98%.pdf" },
+
     ],
     "Back Cover": [
       { name: "Back Cover", path: "pdfs/back_page/Back_Page.pdf" },
