@@ -1,19 +1,15 @@
 const pdfCategories = {
     "Front Cover": [
-      { name: "Front Cover 1", path: "pdfs/front_covers/Front_Cover_1.pdf" },
-      { name: "Front Cover 2", path: "pdfs/front_covers/Front_Cover_2.pdf" },      
+      { name: "Front Cover 1", path: "pdfs/front_covers/Front_Cover_1.pdf" },      
     ],
-    "Executive summary": [
-        { name: "Enterprise", path: "pdfs/introductions/Enterprise.pdf" },
-        { name: "SMEs", path: "pdfs/introductions/SMEs.pdf" },      
-        { name: "Charities", path: "pdfs/introductions/Charities.pdf" },      
+    "Company Overview": [
+        { name: "Overview", path: "pdfs/company_overview/company_overview.pdf" },    
     ],    
-    "Build vs Buy": [
-        { name: "Build vs buy 1", path: "pdfs/build_vs_buy/Build_Vs_Buy_1.pdf" },
-        { name: "Build vs buy 2", path: "pdfs/build_vs_buy/Build_Vs_Buy_2.pdf" },        
+    "Founders Vision": [
+        { name: "Founders vision", path: "pdfs/founders_vision/founders_vision.pdf" },
     ],     
-    "FAQs": [
-        { name: "Technical FAQs", path: "pdfs/FAQs/Technical_FAQs.pdf" },        
+    "Timelines": [
+        { name: "Integration timeilne", path: "pdfs/timelines/timeline.pdf" },        
     ],         
     "Efficiency Gains": [
         { name: "ChatGPT Study", path: "pdfs/efficiency_gains/ChatGPT_Study.pdf" },         
