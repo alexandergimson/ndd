@@ -4,6 +4,9 @@ const pdfCategories = {
       { name: "Heineken", path: "pdfs/front_covers/Heineken.pdf" },      
       
     ],
+    "Executive Summary": [
+        { name: "ChatGPT Study", path: "pdfs/executive_summary/executive_summary.pdf" },         
+    ],            
     "Company Overview": [
         { name: "Overview", path: "pdfs/company_overview/company_overview.pdf" },    
     ],    
@@ -23,9 +26,6 @@ const pdfCategories = {
     "ebooks": [
         { name: "History of IR", path: "pdfs/ebooks/history_of_ir.pdf" },       
     ],    
-    "Efficiency Gains": [
-        { name: "ChatGPT Study", path: "pdfs/efficiency_gains/ChatGPT_Study.pdf" },         
-    ],            
     "Increase Your Win Rate": [
         { name: "Enterprise", path: "pdfs/win_rate_increases/Enterprise.pdf" },
         { name: "SMEs", path: "pdfs/win_rate_increases/SMEs.pdf" },        
