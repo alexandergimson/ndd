@@ -27,41 +27,7 @@ const pdfCategories = {
     ],
     "ebooks": [
         { name: "History of IR", path: "pdfs/ebooks/history_of_ir.pdf" },       
-    ],    
-    "Increase Your Win Rate": [
-        { name: "Enterprise", path: "pdfs/win_rate_increases/Enterprise.pdf" },
-        { name: "SMEs", path: "pdfs/win_rate_increases/SMEs.pdf" },        
-        { name: "Charities", path: "pdfs/win_rate_increases/Charities.pdf" },        
-    ],   
-    "Competitors": [
-        { name: "Competitive Landscape", path: "pdfs/competitors/Competitive_Landscape.pdf" },
-        { name: "ChatGPT", path: "pdfs/competitors/ChatGPT.pdf" },
-        { name: "Rohirrim", path: "pdfs/competitors/Rohirrim.pdf" },        
-        { name: "Copilot", path: "pdfs/competitors/Copilot.pdf" },        
-        { name: "Loopio", path: "pdfs/competitors/Loopio.pdf" },
-        { name: "Writer", path: "pdfs/competitors/Writer.pdf" },
-
-    ],       
-    "Security": [
-        { name: "Security", path: "pdfs/security/Security.pdf" },       
-    ],     
-    "Training and adoption": [
-        { name: "Training and adoption", path: "pdfs/training_and_adoption/training_and_adoption.pdf" },
-        { name: "Test and evaluate", path: "pdfs/training_and_adoption/test_and_validate_experience.pdf" },
-    ],     
-    "The Tech Behind The Product": [
-        { name: "The Tech Behind The Product", path: "pdfs/tech/The_Tech.pdf" },       
-    ],      
-    "More than AI": [
-        { name: "More than AI", path: "pdfs/more_than_AI/more_than_AI.pdf" },       
-    ],                          
-    "Testimonials": [
-        { name: "Testimonials 1", path: "pdfs/testimonials/Testimonials_1.pdf" },       
-        { name: "Testimonials 2", path: "pdfs/testimonials/Testimonials_2.pdf" },               
-    ],       
-    "Investors": [
-        { name: "Investors", path: "pdfs/investors/Investors.pdf" },       
-    ],                                            
+    ],                                       
   };
   
   export default pdfCategories;
