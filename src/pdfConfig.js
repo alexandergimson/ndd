@@ -1,8 +1,10 @@
 const pdfCategories = {
     "Front Cover": [
       { name: "Front Cover 1", path: "pdfs/front_covers/Front_Cover_1.pdf" },
-      { name: "Heineken", path: "pdfs/front_covers/Heineken.pdf" },      
-      
+      { name: "Heineken", path: "pdfs/front_covers/Heineken.pdf" },           
+    ],
+    "Back Cover": [
+      { name: "Back Cover", path: "pdfs/back_pages/back_cover.pdf" },
     ],
     "Executive Summary": [
         { name: "ChatGPT Study", path: "pdfs/executive_summary/executive_summary.pdf" },         
@@ -60,9 +62,6 @@ const pdfCategories = {
     "Investors": [
         { name: "Investors", path: "pdfs/investors/Investors.pdf" },       
     ],                                            
-    "Back Cover": [
-      { name: "Back Cover", path: "pdfs/back_page/Back_Page.pdf" },
-    ],
   };
   
   export default pdfCategories;
