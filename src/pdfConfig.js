@@ -7,7 +7,7 @@ const pdfCategories = {
       { name: "Back Cover", path: "pdfs/back_pages/back_cover.pdf" },
     ],
     "Executive Summary": [
-        { name: "ChatGPT Study", path: "pdfs/executive_summary/executive_summary.pdf" },         
+        { name: "Executive Summary", path: "pdfs/executive_summary/executive_summary.pdf" },         
     ],            
     "Company Overview": [
         { name: "Overview", path: "pdfs/company_overview/company_overview.pdf" },    
