@@ -14,7 +14,10 @@ const pdfCategories = {
     ],    
     "Founders Vision": [
         { name: "Founders vision", path: "pdfs/founders_vision/founders_vision.pdf" },
-    ],     
+    ], 
+    "ZIA Introduction": [
+        { name: "Introduction to ZIA", path: "pdfs/zia_introduction/zia_introduction.pdf" },       
+    ],        
     "Timelines": [
         { name: "Integration timeilne", path: "pdfs/timelines/timeline.pdf" },        
     ],         
@@ -27,7 +30,13 @@ const pdfCategories = {
     ],
     "ebooks": [
         { name: "History of IR", path: "pdfs/ebooks/history_of_ir.pdf" },       
-    ],                                       
+    ],    
+    "Use Cases": [
+        { name: "Introduction to Use Cases", path: "pdfs/use_cases/history_of_ir.pdf" },
+        { name: "Level 1", path: "pdfs/use_cases/level_1.pdf" },
+        { name: "Level 2 & 3", path: "pdfs/use_cases/level_2_and_3.pdf" },
+        { name: "Example Display & Promotional", path: "pdfs/use_cases/use_case_example_display_and_promotional.pdf" },       
+    ],                                           
   };
   
   export default pdfCategories;
