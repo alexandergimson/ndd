@@ -20,7 +20,7 @@ const pdfCategories = {
         { name: "Catalogue & Capture", path: "pdfs/zia_introduction/c_and_c.pdf" },       
     ], 
     "Neurolabs architecture": [
-        { name: "Neurolabs Architecture", path: "pdfs/neurolabs_architecture/neurolabs_architecture" }
+        { name: "Neurolabs Architecture", path: "pdfs/neurolabs_architecture/neurolabs_architecture.pdf" }
         ],       
     "Timelines": [
         { name: "Integration timeilne", path: "pdfs/timelines/timeline.pdf" },        
