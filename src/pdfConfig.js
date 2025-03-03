@@ -32,7 +32,7 @@ const pdfCategories = {
         { name: "History of IR", path: "pdfs/ebooks/history_of_ir.pdf" },       
     ],    
     "Use Cases": [
-        { name: "Introduction to Use Cases", path: "pdfs/use_cases/history_of_ir.pdf" },
+        { name: "Introduction to Use Cases", path: "pdfs/use_cases/intro_to_use_cases.pdf" },
         { name: "Level 1", path: "pdfs/use_cases/level_1.pdf" },
         { name: "Level 2 & 3", path: "pdfs/use_cases/level_2_and_3.pdf" },
         { name: "Example Display & Promotional", path: "pdfs/use_cases/use_case_example_display_and_promotional.pdf" },       
