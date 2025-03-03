@@ -16,7 +16,9 @@ const pdfCategories = {
         { name: "Founders vision", path: "pdfs/founders_vision/founders_vision.pdf" },
     ], 
     "ZIA Introduction": [
-        { name: "Introduction to ZIA", path: "pdfs/zia_introduction/zia_introduction.pdf" },       
+        { name: "Introduction to ZIA", path: "pdfs/zia_introduction/zia_introduction.pdf" },
+        { name: "Catalogue & Capture", path: "pdfs/zia_introduction/c_and_c.pdf" },       
+       
     ],        
     "Timelines": [
         { name: "Integration timeilne", path: "pdfs/timelines/timeline.pdf" },        
