@@ -47,7 +47,9 @@ const pdfCategories = {
         { name: "Introduction to Use Cases", path: "pdfs/use_cases/intro_to_use_cases.pdf" },
         { name: "Level 1", path: "pdfs/use_cases/level_1.pdf" },
         { name: "Level 2 & 3", path: "pdfs/use_cases/level_2_and_3.pdf" },
-        { name: "Example Display & Promotional", path: "pdfs/use_cases/use_case_example_display_and_promotional.pdf" },       
+        { name: "Display & Promotional", path: "pdfs/use_cases/display_and_promotional_execution.pdf" },  
+        { name: "Price & Product Recognition", path: "pdfs/use_cases/price_and_product_recognition.pdf" },       
+
     ],    
     "Commercials": [
         { name: "Commercial framework", path: "pdfs/commercials/commercial_framework.pdf" },       
