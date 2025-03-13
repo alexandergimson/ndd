@@ -4,10 +4,10 @@ const pdfCategories = {
       { name: "Heineken", path: "pdfs/front_covers/Heineken.pdf" },           
     ],
     "Back Cover": [
-      { name: "Back Cover", path: "pdfs/back_pages/remus.pdf" },
-      { name: "Back Cover", path: "pdfs/back_pages/charlie.pdf" },
-      { name: "Back Cover", path: "pdfs/back_pages/rares.pdf" },
-      { name: "Back Cover", path: "pdfs/back_pages/thomas.pdf" },                  
+      { name: "Remus", path: "pdfs/back_pages/remus.pdf" },
+      { name: "Charlie", path: "pdfs/back_pages/charlie.pdf" },
+      { name: "Rares", path: "pdfs/back_pages/rares.pdf" },
+      { name: "Thomas", path: "pdfs/back_pages/thomas.pdf" },                  
     ],
     "Executive Summary": [
         { name: "Executive Summary", path: "pdfs/executive_summary/executive_summary.pdf" },         
@@ -21,7 +21,7 @@ const pdfCategories = {
     ], 
     "ZIA Introduction": [
         { name: "Introduction to ZIA", path: "pdfs/zia_introduction/zia_introduction.pdf" },
-        { name: "The ZIA catalogue", path: "pdfs/zia_introduction/zia_catalogue.pdf.pdf" },       
+        { name: "The ZIA catalogue", path: "pdfs/zia_introduction/zia_catalogue.pdf" },       
         { name: "The Power of Synthetically Generated Images", path: "pdfs/zia_introduction/the_power_of_syntheticall_generated_images.pdf" },           
     ], 
     "Neurolabs architecture": [
