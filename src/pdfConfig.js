@@ -32,6 +32,9 @@ const pdfCategories = {
         ],                  
     "Timelines": [
         { name: "Integration timeilne", path: "pdfs/timelines/timeline.pdf" },        
+    ],        
+    "Vendor Comparisons": [
+        { name: "Vendor Comparison", path: "pdfs/vendor_comparisons/vendor_comparison.pdf" },       
     ],         
     "Case Studies": [
         { name: "Spanish 1 million", path: "pdfs/case_studies/spanish_1m.pdf" },
