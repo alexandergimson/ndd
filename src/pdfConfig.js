@@ -61,7 +61,10 @@ const pdfCategories = {
         { name: "Back Cover", path: "pdfs/mondelez/back_cover.pdf" },
         { name: "Intro", path: "pdfs/mondelez/intro.pdf" },     
         { name: "Options explained", path: "pdfs/mondelez/options_explained.pdf" },     
-        { name: "Vendor comparison", path: "pdfs/mondelez/vendor_comparison.pdf" },            
+        { name: "Vendor comparison", path: "pdfs/mondelez/vendor_comparison.pdf" }, 
+        { name: "Takeaways", path: "pdfs/mondelez/takeaways.pdf" },                    
+        { name: "Takeaways", path: "pdfs/mondelez/why_iraas.pdf" },                    
+
     ],            
   };
   
