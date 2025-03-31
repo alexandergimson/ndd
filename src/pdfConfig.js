@@ -63,7 +63,7 @@ const pdfCategories = {
         { name: "Options explained", path: "pdfs/mondelez/options_explained.pdf" },     
         { name: "Vendor comparison", path: "pdfs/mondelez/vendor_comparison.pdf" }, 
         { name: "Takeaways", path: "pdfs/mondelez/takeaways.pdf" },                    
-        { name: "Takeaways", path: "pdfs/mondelez/why_iraas.pdf" },                    
+        { name: "Why IRaaS wins", path: "pdfs/mondelez/why_iraas.pdf" },                    
 
     ],            
   };
