@@ -55,7 +55,14 @@ const pdfCategories = {
     ],    
     "Commercials": [
         { name: "Commercial framework", path: "pdfs/commercials/commercial_framework.pdf" },       
-    ],    
+    ],
+    "Mondelez": [
+        { name: "Front Cover", path: "pdfs/mondelez/front_cover.pdf" },     
+        { name: "Back Cover", path: "pdfs/mondelez/back_cover.pdf" },
+        { name: "Intro", path: "pdfs/mondelez/intro.pdf" },     
+        { name: "Options explained", path: "pdfs/mondelez/options_explained.pdf" },     
+        { name: "Vendor comparison", path: "pdfs/mondelez/vendor_comparison.pdf" },            
+    ],            
   };
   
   export default pdfCategories;
