@@ -1,7 +1,7 @@
 const pdfCategories = {
     "Front Cover": [
       { name: "Front Cover 1", path: "pdfs/front_covers/Front_Cover_1.pdf" },
-      { name: "Heineken", path: "pdfs/front_covers/Heineken.pdf" },           
+      { name: "Heineken", path: "pdfs/front_covers/brown-forman.pdf" },           
     ],
     "Back Cover": [
       { name: "Remus", path: "pdfs/back_pages/remus.pdf" },
