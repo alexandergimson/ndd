@@ -64,8 +64,16 @@ const pdfCategories = {
         { name: "Vendor comparison", path: "pdfs/mondelez/vendor_comparison.pdf" }, 
         { name: "Takeaways", path: "pdfs/mondelez/takeaways.pdf" },                    
         { name: "Why IRaaS wins", path: "pdfs/mondelez/why_iraas.pdf" },                    
-
-    ],            
+    ],     
+    "Orkla": [
+        { name: "Front Cover", path: "pdfs/orkla/front_cover.pdf" },     
+        { name: "Back Cover", path: "pdfs/orkla/back_cover.pdf" },
+        { name: "Intro", path: "pdfs/orkla/intro.pdf" },     
+        { name: "Options explained", path: "pdfs/orkla/options_explained.pdf" },     
+        { name: "Vendor comparison", path: "pdfs/orkla/vendor_comparison.pdf" }, 
+        { name: "Takeaways", path: "pdfs/orkla/takeaways.pdf" },                    
+        { name: "Why IRaaS wins", path: "pdfs/orkla/why_iraas.pdf" },                    
+    ],                
   };
   
   export default pdfCategories;
