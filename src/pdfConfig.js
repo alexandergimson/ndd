@@ -1,6 +1,7 @@
 const pdfCategories = {
     "Front Cover": [
       { name: "Front Cover 1", path: "pdfs/front_covers/Front_Cover_1.pdf" },
+      { name: "Front Cover 2", path: "pdfs/front_covers/Front_Cover_2.pdf" },      
       { name: "Brown-Forman", path: "pdfs/front_covers/brown_forman.pdf" },           
     ],
     "Back Cover": [
@@ -56,6 +57,9 @@ const pdfCategories = {
     "Commercials": [
         { name: "Commercial framework", path: "pdfs/commercials/commercial_framework.pdf" },       
     ],
+    "Options": [
+        { name: "Commercial framework", path: "pdfs/options/options.pdf" },       
+    ],    
     "Mondelez": [
         { name: "Front Cover", path: "pdfs/mondelez/front_cover.pdf" },     
         { name: "Back Cover", path: "pdfs/mondelez/back_cover.pdf" },
