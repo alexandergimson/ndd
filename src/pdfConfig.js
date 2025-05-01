@@ -2,12 +2,11 @@ const pdfCategories = {
     "Front Cover": [
       { name: "Front Cover 1", path: "pdfs/front_covers/Front_Cover_1.pdf" },
       { name: "Front Cover 2", path: "pdfs/front_covers/Front_Cover_2.pdf" },      
-      { name: "Brown-Forman", path: "pdfs/front_covers/brown_forman.pdf" },           
+      { name: "Grupo Bimbo", path: "pdfs/front_covers/grupo_bimbo.pdf" },           
     ],
     "Back Cover": [
       { name: "Remus", path: "pdfs/back_pages/remus.pdf" },
       { name: "Charlie", path: "pdfs/back_pages/charlie.pdf" },
-      { name: "Rares", path: "pdfs/back_pages/rares.pdf" },
       { name: "Thomas", path: "pdfs/back_pages/thomas.pdf" },                  
     ],
     "Executive Summary": [
@@ -35,7 +34,8 @@ const pdfCategories = {
         { name: "Integration timeilne", path: "pdfs/timelines/timeline.pdf" },        
     ],        
     "Vendor Comparisons": [
-        { name: "Vendor Comparison", path: "pdfs/vendor_comparisons/vendor_comparison.pdf" },       
+        { name: "Vendor Comparison", path: "pdfs/vendor_comparisons/vendor_comparison.pdf" },
+        { name: "5 Options", path: "pdfs/vendor_comparisons/options.pdf" },       
     ],         
     "Case Studies": [
         { name: "Spanish 1 million", path: "pdfs/case_studies/spanish_1m.pdf" },
@@ -57,8 +57,18 @@ const pdfCategories = {
     "Commercials": [
         { name: "Commercial framework", path: "pdfs/commercials/commercial_framework.pdf" },       
     ],
-    "Options": [
-        { name: "Commercial framework", path: "pdfs/options/options.pdf" },       
+    "Print": [
+        { name: "Commercial framework", path: "pdfs/toprint/1.pdf" },
+        { name: "Commercial framework", path: "pdfs/toprint/2.pdf" },       
+        { name: "Commercial framework", path: "pdfs/toprint/3.pdf" },       
+        { name: "Commercial framework", path: "pdfs/toprint/4.pdf" },       
+        { name: "Commercial framework", path: "pdfs/toprint/5.pdf" },       
+        { name: "Commercial framework", path: "pdfs/toprint/6.pdf" },       
+        { name: "Commercial framework", path: "pdfs/toprint/7.pdf" },       
+        { name: "Commercial framework", path: "pdfs/toprint/8.pdf" },       
+        { name: "Commercial framework", path: "pdfs/toprint/9.pdf" },       
+        { name: "Commercial framework", path: "pdfs/toprint/10.pdf" },      
+
     ],    
     "Mondelez": [
         { name: "Front Cover", path: "pdfs/mondelez/front_cover.pdf" },     
