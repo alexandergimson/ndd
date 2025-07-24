@@ -56,38 +56,7 @@ const pdfCategories = {
     ],    
     "Commercials": [
         { name: "Commercial framework", path: "pdfs/commercials/commercial_framework.pdf" },       
-    ],
-    "Print": [
-        { name: "Commercial framework", path: "pdfs/toprint/1.pdf" },
-        { name: "Commercial framework", path: "pdfs/toprint/2.pdf" },       
-        { name: "Commercial framework", path: "pdfs/toprint/3.pdf" },       
-        { name: "Commercial framework", path: "pdfs/toprint/4.pdf" },       
-        { name: "Commercial framework", path: "pdfs/toprint/5.pdf" },       
-        { name: "Commercial framework", path: "pdfs/toprint/6.pdf" },       
-        { name: "Commercial framework", path: "pdfs/toprint/7.pdf" },       
-        { name: "Commercial framework", path: "pdfs/toprint/8.pdf" },       
-        { name: "Commercial framework", path: "pdfs/toprint/9.pdf" },       
-        { name: "Commercial framework", path: "pdfs/toprint/10.pdf" },      
-
-    ],    
-    "Mondelez": [
-        { name: "Front Cover", path: "pdfs/mondelez/front_cover.pdf" },     
-        { name: "Back Cover", path: "pdfs/mondelez/back_cover.pdf" },
-        { name: "Intro", path: "pdfs/mondelez/intro.pdf" },     
-        { name: "Options explained", path: "pdfs/mondelez/options_explained.pdf" },     
-        { name: "Vendor comparison", path: "pdfs/mondelez/vendor_comparison.pdf" }, 
-        { name: "Takeaways", path: "pdfs/mondelez/takeaways.pdf" },                    
-        { name: "Why IRaaS wins", path: "pdfs/mondelez/why_iraas.pdf" },                    
-    ],     
-    "Orkla": [
-        { name: "Front Cover", path: "pdfs/orkla/front_cover.pdf" },     
-        { name: "Back Cover", path: "pdfs/orkla/back_cover.pdf" },
-        { name: "Intro", path: "pdfs/orkla/intro.pdf" },     
-        { name: "Options explained", path: "pdfs/orkla/options_explained.pdf" },     
-        { name: "Vendor comparison", path: "pdfs/orkla/vendor_comparison.pdf" }, 
-        { name: "Takeaways", path: "pdfs/orkla/takeaways.pdf" },                    
-        { name: "Why IRaaS wins", path: "pdfs/orkla/why_iraas.pdf" },                    
-    ],                
+    ],       
   };
   
   export default pdfCategories;
