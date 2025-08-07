@@ -56,6 +56,8 @@ const pdfCategories = {
     ],    
     "Commercials": [
         { name: "Commercial framework", path: "pdfs/commercials/commercial_framework.pdf" },       
+        { name: "Commercial framework", path: "pdfs/commercials/commercial_framework_usd.pdf" },       
+
     ],       
   };
   
