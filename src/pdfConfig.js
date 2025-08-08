@@ -55,8 +55,8 @@ const pdfCategories = {
         { name: "Price & Product Recognition", path: "pdfs/use_cases/price_and_product_recognition.pdf" },       
     ],    
     "Commercials": [
-        { name: "Commercial framework", path: "pdfs/commercials/commercial_framework.pdf" },       
-        { name: "Commercial framework", path: "pdfs/commercials/commercial_framework_usd.pdf" },       
+        { name: "Commercial framework GBP", path: "pdfs/commercials/commercial_framework.pdf" },       
+        { name: "Commercial framework USD", path: "pdfs/commercials/commercial_framework_usd.pdf" },       
 
     ],       
   };
