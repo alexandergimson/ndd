@@ -19,6 +19,11 @@ const pdfCategories = {
     "Founders Vision": [
         { name: "Founders vision", path: "pdfs/founders_vision/founders_vision.pdf" },
     ], 
+    "One Pager": [
+        { name: "Overview", path: "pdfs/one_pagers/generic_one_pager.pdf" },
+        { name: "Social Focused", path: "pdfs/one_pagers/social_focused_one_pager.pdf" },
+        { name: "Overview", path: "pdfs/one_pagers/mid_market_one_pager.pdf" },
+    ],     
     "ZIA Introduction": [
         { name: "Introduction to ZIA", path: "pdfs/zia_introduction/zia_introduction.pdf" },
         { name: "The ZIA catalogue", path: "pdfs/zia_introduction/zia_catalogue.pdf" },       
