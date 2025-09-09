@@ -11,3 +11,7 @@ Commit source code changes to main branch:
 git add .
 git commit -m "Describe the changes"
 git push origin main
+
+
+
+npm run build && npm run deploy && git add . && git commit -m "Describe the changes" && git push origin main
