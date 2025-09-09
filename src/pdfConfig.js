@@ -23,7 +23,7 @@ const pdfCategories = {
         { name: "Overview", path: "pdfs/one_pagers/generic_one_pager.pdf" },
         { name: "Social Focused", path: "pdfs/one_pagers/social_focused_one_pager.pdf" },
         { name: "Mid Market", path: "pdfs/one_pagers/mid_market_one_pager.pdf" },
-        { name: "Enterprise", path: "cpg_enterprise_one_pager.pdf" }
+        { name: "Enterprise", path: "pdfs/one_pagers/cpg_enterprise_one_pager.pdf" }
     ],     
     "ZIA Introduction": [
         { name: "Introduction to ZIA", path: "pdfs/zia_introduction/zia_introduction.pdf" },
