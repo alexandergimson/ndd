@@ -7,7 +7,8 @@ const pdfCategories = {
     "Back Cover": [
       { name: "Remus", path: "pdfs/back_pages/remus.pdf" },
       { name: "Charlie", path: "pdfs/back_pages/charlie.pdf" },
-      { name: "Thomas", path: "pdfs/back_pages/thomas.pdf" },                  
+      { name: "Thomas", path: "pdfs/back_pages/thomas.pdf" },     
+      { name: "Plamen", path: "pdfs/back_pages/plamen.pdf" },                      
     ],
     "Executive Summary": [
         { name: "Executive Summary", path: "pdfs/executive_summary/executive_summary.pdf" },         
